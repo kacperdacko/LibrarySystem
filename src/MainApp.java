@@ -9,7 +9,7 @@ public class MainApp extends Application {
     public void start(Stage primaryStage) {
         Library library = new Library();
 
-        // Wczytaj dane z CSV — jeśli chcesz
+        // Wczytywanie danych z CSV
         library.loadBooksFromCSV("books.csv");
         library.loadUsersFromCSV("users.csv");
         library.loadLoansFromCSV("loans.csv");

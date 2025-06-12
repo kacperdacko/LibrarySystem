@@ -4,7 +4,7 @@ import model.exceptions.BookNotFoundException;
 import java.util.List;
 import java.util.Scanner;
 
-import static model.Library.printAllBooks;
+
 
 
 public class Main {

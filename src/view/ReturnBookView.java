@@ -16,7 +16,7 @@ public class ReturnBookView {
     }
 
     public void show(Stage stage) {
-        VBox root = new VBox(10);
+        VBox root = new VBox(20);
         root.setPadding(new Insets(20));
 
         Label isbnLabel = new Label("ISBN książki:");

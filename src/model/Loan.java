@@ -17,12 +17,7 @@ public class Loan implements Serializable {
 
     public Book getBook() { return book; }
     public User getUser() { return user; }
-    public LocalDate getDate() { return date; }
-    public boolean isReturned() { return returned; }
 
-    public void setReturned(boolean returned) {
-        this.returned = returned;
-    }
 
     @Override
     public String toString() {
